@@ -1,1 +1,59 @@
-Hola mundo - Esta es una prueba
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comparación de Canchas</title>
+  <script>
+    var canchas = [
+      {
+        "nombre": "Parque Walt",
+        "direccion": "123 Main Street, Calgary, AB",
+        "rating": 4.5,
+        "imagen": "https://i0.wp.com/noticiasgdl.com/wp-content/uploads/2020/02/EQI1Nx0XsAAdNHw.jpg?fit=1024%2C683&ssl=1"
+      },
+      {
+        "nombre": "Parque Walt2",
+        "direccion": "123 Main Street, Calgary, AB",
+        "rating": 4.5,
+        "imagen": "https://i0.wp.com/noticiasgdl.com/wp-content/uploads/2020/02/EQI1Nx0XsAAdNHw.jpg?fit=1024%2C683&ssl=1"
+      },
+      {
+        "nombre": "Parque Walt3",
+        "direccion": "123 Main Street, Calgary, AB",
+        "rating": 4.5,
+        "imagen": "https://i0.wp.com/noticiasgdl.com/wp-content/uploads/2020/02/EQI1Nx0XsAAdNHw.jpg?fit=1024%2C683&ssl=1"
+      }
+    ];
+
+    var selectedIndex1 = 0;
+    var selectedIndex2 = 1;
+
+    function updateSelectedCanchas() {
+      document.getElementById("cancha1").innerHTML = canchas[selectedIndex1].nombre;
+      document.getElementById("cancha2").innerHTML = canchas[selectedIndex2].nombre;
+      document.getElementById("rating1").innerHTML = canchas[selectedIndex1].rating;
+      document.getElementById("rating2").innerHTML = canchas[selectedIndex2].rating;
+      document.getElementById("cancha1Img").src = canchas[selectedIndex1].imagen;
+      document.getElementById("cancha2Img").src = canchas[selectedIndex2].imagen;
+    }
+
+    function increaseRating1() {
+      canchas[selectedIndex1].rating += 1;
+      updateSelectedCanchas();
+    }
+
+    function decreaseRating1() {
+      canchas[selectedIndex1].rating -= 1;
+      updateSelectedCanchas();
+    }
+
+    function increaseRating2() {
+      canchas[selectedIndex2].rating += 1;
+      updateSelectedCanchas();
+    }
+
+    function decreaseRating2() {
+      canchas[selectedIndex2].rating -= 1;
+      updateSelectedCanchas();
+    }
+  </script>
+</head>

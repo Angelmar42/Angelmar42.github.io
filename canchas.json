@@ -1,0 +1,23 @@
+{
+    "Canchas": [
+      {
+        "nombre": "Parque walt",
+        "direccion": "123 Main Street, Calgary, AB",
+        "rating": 4.5,
+        "imagen": "https://i0.wp.com/noticiasgdl.com/wp-content/uploads/2020/02/EQI1Nx0XsAAdNHw.jpg?fit=1024%2C683&ssl=1"
+      },
+      {
+        "nombre": "Parque walt2",
+        "direccion": "123 Main Street, Calgary, AB",
+        "rating": 4.5,
+        "imagen": "https://i0.wp.com/noticiasgdl.com/wp-content/uploads/2020/02/EQI1Nx0XsAAdNHw.jpg?fit=1024%2C683&ssl=1"
+      },
+      {
+        "nombre": "Parque walt3",
+        "direccion": "123 Main Street, Calgary, AB",
+        "rating": 4.5,
+        "imagen": "https://i0.wp.com/noticiasgdl.com/wp-content/uploads/2020/02/EQI1Nx0XsAAdNHw.jpg?fit=1024%2C683&ssl=1"
+      }
+      
+    ]
+  }
